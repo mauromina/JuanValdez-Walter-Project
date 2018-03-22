@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Juan Valdez</string>
+    <string name="logo">Logo Juan Valdez</string>
+    <string name="late">Bebida Late</string>
+    <string-array name="opcionesPrincipales">
+        <item>Bebidas Calientes</item>
+        <item>Comidas</item>
+        <item>Tiendas</item>
+    </string-array>
+
+</resources>
