@@ -17,8 +17,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".BebidaCaliente" />
-        <activity android:name=".LateProducto"></activity>
+        <activity android:name=".LateProducto" />
+
+
+        <activity android:name=".Pedidos"
+            android:label="@string/createOrder"
+            android:parentActivityName=".ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadPrincipal"/>
+        </activity>
+
+
+
 
     </application>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 </manifest>

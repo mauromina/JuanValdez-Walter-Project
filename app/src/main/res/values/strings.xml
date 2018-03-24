@@ -2,10 +2,20 @@
     <string name="app_name">Juan Valdez</string>
     <string name="logo">Logo Juan Valdez</string>
     <string name="late">Bebida Late</string>
+
+    <string name="createOrder">Crear Orden</string>
+    <string name="compartir">Compartir</string>
+
     <string-array name="opcionesPrincipales">
         <item>Bebidas Calientes</item>
         <item>Comidas</item>
         <item>Tiendas</item>
+    </string-array>
+
+    <string-array name="pedidos">
+        <item>Café Late</item>
+        <item>Café Filtrado</item>
+        <item>Café con Leche</item>
     </string-array>
 
 </resources>

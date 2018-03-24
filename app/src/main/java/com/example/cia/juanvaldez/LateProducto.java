@@ -17,7 +17,9 @@ public class LateProducto extends AppCompatActivity {
         Bebidas bebida=Bebidas.bebidas[id];
 
         TextView nombre=findViewById(R.id.textNombre);
+
         nombre.setText(bebida.getNombre());
+
 
         ImageView imagen=findViewById(R.id.imageBebida);
         imagen.setImageResource(bebida.getImagenId());

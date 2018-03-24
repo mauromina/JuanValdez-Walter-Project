@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cia.juanvaldez.Pedidos">
+
+    <include
+        android:id="@+id/barraTitle"
+        layout="@layout/toolbar" />
+
+
+    <ListView
+        android:id="@+id/listaPedido"
+        android:layout_width="263dp"
+        android:layout_height="338dp"
+        android:entries="@array/pedidos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:text="Comprar Producto"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/listaPedido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barraTitle" />
+
+</android.support.constraint.ConstraintLayout>
